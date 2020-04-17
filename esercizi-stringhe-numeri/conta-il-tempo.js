@@ -12,3 +12,13 @@
 
   http://www.imparareaprogrammare.it
 */
+var secondtot = 20000;
+var hour = (secondtot/3600);
+var hourint = Math.floor(hour);
+console.log(hourint);
+var minute = (hour - hourint)*60
+var minuteint = Math.floor(minute);
+console.log(minuteint);
+var second = secondtot - hourint*3600 - minute*60
+console.log(Math.round(second));
+console.log( secondtot +' sono '+ hourint + ' ore'+ minuteint +' minuti'+ ' e ' + Math.round(second) +' secondi');
