@@ -17,3 +17,11 @@
 
   http://www.imparareaprogrammare.it
 */
+var cats = 44;
+var catsforline = 6;
+var line = cats/catsforline;
+var lineresult = Math.floor(line);
+console.log(' ci sono ' + lineresult + ' file di gatti');
+var misscats = cats - catsforline*lineresult;
+
+console.log('mancano ' +misscats+ ' gatti');
