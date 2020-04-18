@@ -20,8 +20,7 @@
 var cats = 44;
 var catsforline = 6;
 var line = cats/catsforline;
-var lineresult = Math.floor(line);
+var lineresult = Math.ceil(line);
+var misscats = (catsforline*lineresult)-cats;
 console.log(' ci sono ' + lineresult + ' file di gatti');
-var misscats = cats - catsforline*lineresult;
-
-console.log('mancano ' +misscats+ ' gatti');
+console.log('mancano ' +misscats+ ' gatti x completare la fila');
