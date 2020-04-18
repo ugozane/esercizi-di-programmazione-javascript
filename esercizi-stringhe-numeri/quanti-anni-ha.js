@@ -11,3 +11,9 @@
 
   http://www.imparareaprogrammare.it
 */
+var year = 2020;
+var birthday = 1981;
+var age = year - birthday;
+var hundred = 100 - age;
+console.log('età = '+age);
+console.log('ti mancano '+hundred+' anni per arrivare a 100');

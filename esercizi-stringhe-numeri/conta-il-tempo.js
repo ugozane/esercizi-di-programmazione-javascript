@@ -21,4 +21,4 @@ var minuteint = Math.floor(minute);
 console.log(minuteint);
 var second = secondtot - hourint*3600 - minute*60
 console.log(Math.round(second));
-console.log( secondtot +' sono '+ hourint + ' ore'+ minuteint +' minuti'+ ' e ' + Math.round(second) +' secondi');
+console.log( secondtot +' sono '+ hourint + ' ore '+ minuteint +' minuti'+ ' e ' + Math.round(second) +' secondi');
