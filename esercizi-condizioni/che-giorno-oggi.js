@@ -22,3 +22,23 @@
 
   http://www.imparareaprogrammare.it
 */
+var n =22;
+switch (n) {
+  case 1: console.log('lunedì');
+    break;
+    case 2: console.log('martedì');
+      break;
+      case 3: console.log('mercoledì');
+        break;
+        case 4: console.log('giovedì');
+          break;
+          case 5: console.log('venerdì');
+            break;
+            case 6: console.log('sabato');
+              break;
+              case 7: console.log('domenica');
+                break;
+  default:
+console.log('i giorni della settimana sono solo 7');
+
+}
