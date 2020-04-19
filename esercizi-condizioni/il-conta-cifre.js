@@ -11,3 +11,6 @@
 
   http://www.imparareaprogrammare.it
 */
+var n= 2333;
+var c = n.toString();
+console.log(c.length);
