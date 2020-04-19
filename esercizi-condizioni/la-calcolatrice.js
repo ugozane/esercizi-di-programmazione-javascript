@@ -28,3 +28,32 @@
 
   http://www.imparareaprogrammare.it
 */
+var a = 6;
+var b = 7;
+var o = 'media';
+switch (o) {
+  case o = 'somma':
+  console.log(a+b);
+    break;
+    case o = 'differenza':
+    console.log(a-b);
+      break;
+      case o = 'prodotto':
+      console.log(a*b);
+        break;
+        case o = 'divisione':
+        console.log(a/b);
+          break;
+          case o = 'modulo':
+          console.log(a%b);
+            break;
+            case o = 'potenza':
+            console.log(Math.pow(a,b));
+              break;
+              case o = 'media':
+              console.log((a+b)/2);
+                break;
+  default:
+  console.log ('operazione non consentita');
+
+}
