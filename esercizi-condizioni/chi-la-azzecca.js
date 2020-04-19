@@ -19,3 +19,22 @@
 
   http://www.imparareaprogrammare.it
 */
+var p1 = 7;
+var p2 = 77;
+var casual = Math.floor(Math.random()*(100-1)+1);
+var a = Math.abs(p1-casual);
+var b = Math.abs(p2-casual);
+if (a==0) {
+  console.log('il giocatore 1 ha indovinato');
+}
+else if (b==0) {
+  console.log('il giocatore 2 ha indovinato');
+}
+else if (a<b)
+console.log('il giocatore 1 è andato più vicino') ;
+else if (a>b)
+console.log('il giocatore 2 è andato più vicino');
+else {
+console.log('i giocatori hanno scelto lo stesso numero');
+}
+console.log (casual);
