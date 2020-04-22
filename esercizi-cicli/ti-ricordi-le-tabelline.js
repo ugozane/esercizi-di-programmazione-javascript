@@ -8,3 +8,7 @@
 
   http://www.imparareaprogrammare.it
 */
+var n = 6;
+for (var i = 0; i < 11; i++) {
+  console.log(n*i);
+}
