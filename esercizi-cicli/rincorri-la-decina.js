@@ -19,3 +19,10 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var max =100;
+var i=1;
+while (i <= max) {
+  console.log (i, i+1,i+2,i+3,i+4,i+5,i+6,i+7,i+8,i+9);
+  i = i +10 ;
+}
