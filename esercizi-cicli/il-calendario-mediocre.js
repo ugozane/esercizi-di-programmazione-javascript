@@ -45,3 +45,31 @@
 
   http://www.imparareaprogrammare.it
 */
+var max = 31;
+var i = 1;
+var count=1;
+while (count <= max) {
+    if (i%7==0) {
+      console.log('Lun '+count);
+    }
+    else if (i%7==1){
+      console.log('Mar '+count);
+    }
+    else if (i%7==2){
+      console.log('Mer '+count);
+    }
+    else if (i%7==3){
+      console.log('Gio '+count);
+    }
+    else if (i%7==4){
+        console.log('Ven '+count);
+      }
+      else if (i%7==5){
+        console.log('Sab '+count);
+      }
+      else if (i%7==6){
+        console.log('Dom '+count);
+      }
+      count++;
+      i++;
+    }
