@@ -19,3 +19,36 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var a = Array.from({length: 10},() => Math.floor(Math.random()*(10)+1));
+var b = Array.from({length: 10},() => Math.floor(Math.random()*(10)+1));
+var o = "addizione";
+var somma = Array.from({length: 10},() => 0);
+if (o == "addizione") {
+  for (var i=0; i < somma.length; i++) {
+  somma[i] = somma[i] + a[i]+b[i];}
+console.log(a);
+console.log(b);
+console.log(somma);
+}
+else if (o == "sottrazione") {
+  for (var i=0; i < somma.length; i++) {
+  somma[i] = somma[i] + a[i]-b[i];}
+console.log(a);
+console.log(b);
+console.log(somma);
+}
+else if (o == "moltiplicazione") {
+  for (var i=0; i < somma.length; i++) {
+  somma[i] = somma[i] + a[i]*b[i];}
+console.log(a);
+console.log(b);
+console.log(somma);
+}
+else if (o == "divisione") {
+  for (var i=0; i < somma.length; i++) {
+  somma[i] = somma[i] + a[i]/b[i];}
+console.log(a);
+console.log(b);
+console.log(somma);
+}

@@ -12,3 +12,14 @@
 
   http://www.imparareaprogrammare.it
 */
+var a =[1,3,5,6,9,10];
+var somma = 0;
+for (var i = 0; i < a.length; i++) {
+  somma +=a[i];
+}
+var media = somma/a.length
+console.log(media);
+var filtro = a.filter(function minoremedia(a){
+  return (a < media );
+});
+console.log(filtro);

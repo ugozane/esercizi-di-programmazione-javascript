@@ -15,3 +15,15 @@
 
   http://www.imparareaprogrammare.it
 */
+var a = Array.from({length: 10},() => Math.floor(Math.random()*(10)+1));
+console.log(a)
+  for(var i=0; i<a.length; i++) {
+     for(var j=1; j<(a.length-i); j++) {
+        if(a[j-1]< a[j]){
+          var temp = a[j-1];
+          a[j-1] = a[j];
+          a[j]=temp;
+        }
+  }
+}
+console.log (a);
